@@ -138,7 +138,7 @@ audio{
 }
 
 footer{
-width: 100%;
+width: auto;
 height: auto;
 margin-top: 25px;
 text-align: center;
