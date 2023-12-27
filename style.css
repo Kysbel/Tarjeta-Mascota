@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+/* font-family: 'Nunito Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    
+}
+
+body{
+    height: 100%vh;
+    background-color: rgb(156, 236, 236);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 85px;   
+    background-image:url(./imágenes/fondo.jpg);
+}
+
+@media (min-width:350px) and (max-width:833px){
+    body{
+        width: auto;
+    }
+}
+
+h1{
+font-size: 40px;
+}
+
+@media (min-width:350px) and (max-width:833px){
+    h1{
+    padding: 0px 120px;
+    font-size: 40px; 
+    }
+}
+
+
+h2{
+font-size: 27px;
+padding-top: 15px;
+}
+
+img{
+background-size: 80px;
+cursor: pointer;
+transform: 1s;
+padding-bottom: 6px;
+}
+
+img:hover{
+transform: scale(1.1);
+z-index: 2;
+}
+
+@media (min-width:350px) and (max-width:833px){
+.foto_Estrella{
+    background-size: 80px;
+    cursor: pointer;
+    transform: 1s;
+    padding-bottom: 6px;
+   }
+
+   img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    }
+}
+
+p{
+font-size: 25px;
+padding-top: 20px;
+padding-bottom: 15px;
+}
+
+br{
+margin: auto;
+}
+
+.Whatsapp{
+border: 2px;
+border-radius: 20px;
+padding: 8px;
+background-color: antiquewhite;
+font-size: 20px;
+cursor: pointer;
+}    
+
+.Whatsapp:hover{
+color: rgb(114, 201, 27);
+background-color: rgb(201, 217, 204);
+}
+
+.llamada{
+border: 2px;
+border-radius: 20px;
+padding: 8px;
+background-color: antiquewhite;
+font-size: 20px;
+margin-top: 15px;
+cursor: pointer;
+}
+
+.llamada:hover{
+color: rgb(114, 201, 27);
+background-color: rgb(201, 217, 204);
+}
+
+.ubicación{
+border: 2px;
+border-radius: 20px;
+padding: 8px;
+background-color: antiquewhite;
+font-size: 20px;
+margin-top: 15px;
+cursor: pointer;
+}
+
+.ubicación:hover{
+color: rgb(114, 201, 27);
+background-color: rgb(201, 217, 204);
+}
+
+iframe{
+ display: none;
+}
+
+audio{
+    /* width: 5px;
+    height: 5PX;
+    background-color: transparent;
+    color:transparent; */
+    display: none;
+}
+
+footer{
+width: 100%;
+height: auto;
+margin-top: 25px;
+text-align: center;
+background-color: rgb(255, 229, 80); 
+margin-top: 65px;
+
+}
+
+footer p{
+font-size: 22px;
+}
+
+footer:hover{
+background-color: rgb(240, 197, 41);
+}
