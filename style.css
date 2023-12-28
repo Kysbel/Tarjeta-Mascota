@@ -53,13 +53,13 @@ font-size: 27px;
 padding-top: 15px;
 }
 
-@media (min-width:350px) and (max-width:833px){
+/* @media (min-width:350px) and (max-width:833px){
     h2{
         font-size:23px ;
         padding-top: 15px;
         padding: 10px 117px;
     }
-}
+} */
 
 img{
 background-size: 80px;
@@ -93,14 +93,6 @@ padding-top: 20px;
 padding-bottom: 15px;
 }
 
-@media (min-width:350px) and (max-width:833px){
-    p{
-        font-size: 25px;
-        padding-top: 20px;
-        padding-bottom: 15px;  
-        padding: 10px 117px;
-    }
-}
 
 br{
 margin: auto;
