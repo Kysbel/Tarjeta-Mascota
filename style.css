@@ -26,7 +26,7 @@ body{
  @media (min-width:350px) and (max-width:833px){
     body{
         width: auto;
-        height: 100vh;
+        height: 100%;
         display:flex;
         justify-content: center;
         align-items: center;
